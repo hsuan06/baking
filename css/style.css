@@ -1,0 +1,38 @@
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Microsoft JhengHei";
+}
+
+h1 {
+	font-family: "Arial";
+}
+
+.site-formula {
+	width: 80%;
+	padding: 0px 50px;
+	margin: 60px auto;
+}
+
+.site-formula p {
+	margin: 5px 0px;
+}
+
+.site-footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.site-footer p {
+	padding: 10px 0px;
+	margin: 0;
+	text-align: center;
+}
+

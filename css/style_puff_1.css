@@ -1,0 +1,119 @@
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background: #F3ECE6;
+	font-family: "Microsoft JhengHei";
+}
+
+h1 {
+	font-family:"Arial";
+}
+
+.site-header {
+	background-color: #CA9A76;
+	width: 100%;
+}
+
+.site-logo {
+	padding: 15px 50px;
+	position: relative;
+}
+
+.site-topic {
+	width: 60%;
+	margin: 80px auto;
+}
+
+.site-topic::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.topic {
+	float: left;
+}
+
+.topic_puff {
+	float: right;
+}
+
+.site-formula {
+	width: 50%;
+	padding: 50px;
+	margin: 200px auto;
+	background-color: #CA9A76;
+	box-shadow: 10px 10px 0px 0px #acaaaab0;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cake td {
+	padding: 5px 15px;
+	text-align: center;
+}
+
+.filling td {
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.site-process {
+	width: 70%;
+	margin: 200px auto;
+	text-align: center;
+}
+
+.step p {
+	margin: 5px 0px;
+}
+
+.step::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.step {
+	text-align: left;
+	margin: 100px 0px;
+}
+
+.leftside {
+	float: left;
+}
+
+.rightside {
+	float: right;
+}
+
+.site-knowledge {
+	width: 100%;
+	margin: 200px auto 200px;
+	text-align: center;
+}
+
+.knowledge td {
+	padding: 50px 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.site-footer {
+	background-color: #CA9A76;
+}
+
+.site-footer p {
+	padding: 10px 0px;
+	margin: 0;
+	text-align: center;
+}
